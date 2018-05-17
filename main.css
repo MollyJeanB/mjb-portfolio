@@ -5,6 +5,10 @@
     font-family: 'Roboto Mono', monospace;
   }
 
+  body {
+    -webkit-text-size-adjust: 100%;
+}
+
   .navbar {
     background: #ffe700;
     height: 50px;
