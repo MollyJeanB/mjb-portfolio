@@ -25,6 +25,13 @@
   padding: 20px 0;
 }
 
+.projects-header {
+  width: 100%;
+  background: #ffa332;
+  text-align: center;
+  font-size: 28px;
+}
+
 .chorely-container {
   width: 100%;
   background: #ff8d00;
@@ -36,6 +43,11 @@
 }
 
 .robot-container {
+  width: 100%;
+  background: #e55c00;
+}
+
+.tampon-container {
   width: 100%;
   background: #cc5200;
 }
