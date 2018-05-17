@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Roboto Mono', monospace;
+    color: red;
   }
 
   body {
@@ -127,6 +128,10 @@
 
 
 @media only screen and (min-width: 640px) {
+* {
+  border: 1px solid green;
+}
+
   .bio-text {
     width: 85%;
     margin: 0 auto;
