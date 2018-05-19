@@ -127,6 +127,57 @@
   }
 }
 
+.screenshot {
+  margin: 15px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  width: 273px;
+}
+
+.project-header {
+  text-align: center;
+  padding: 5px 0 0 0;
+  font-size: 24px;
+}
+
+.project-description {
+  /* width: 100%;
+  margin: 0 auto; */
+  padding: 5px 25px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.image-contain {
+  display: flex;
+  justify-content: center;
+}
+
+.tech-contain {
+  padding: 15px;
+
+}
+
+.tech-text {
+  margin: 0 auto;
+  padding: 10px;
+  width: 300px;
+  background: rgba(255,255,255, 0.3);
+}
+
+.tech-headline {
+  margin-bottom: 10px;
+  font-size: 21px;
+}
+
+li {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.explore-view {
+  margin-top: 10px;
+  font-size: 19px
+}
 
 @media only screen and (min-width: 640px) {
 
@@ -140,10 +191,25 @@
     font-size: 35px;
   }
 
+  .project-content-contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tech-text {
+    margin: 0
+    width: 310px;
+  }
+
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
   .bio-text {
     width: 75%;
+  }
+
+  .all-projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
