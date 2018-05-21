@@ -12,6 +12,7 @@
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #ffa332;
   position: relative;
 }
 
@@ -208,6 +209,13 @@ li {
 
 }
 
+@media only screen and (min-width: 1140px) {
+  .greeting {
+    padding-top: 50px;
+  }
+
+}
+
 @media only screen and (min-width: 1300px) {
   .bio-text {
     width: 75%;
@@ -223,7 +231,11 @@ li {
   }
 
   .greeting {
-    padding-top: 50px;
+    padding-top: 30px
+  }
+
+  .hero-section {
+    background-size: auto 135%;
   }
 
 }
