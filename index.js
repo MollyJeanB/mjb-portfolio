@@ -1,6 +1,6 @@
 function scrollToSection(id) {
   const scrollDiv = document.getElementById(id)
-  scrollDiv.scrollIntoView({behavior: "smooth"})
+  scrollDiv.scrollIntoView({behavior: "smooth", block: "start"})
 }
 
 function listenBio() {

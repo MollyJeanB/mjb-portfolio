@@ -27,10 +27,22 @@
     z-index: 2;
   }
 
+  .scroll-anchor {
+    position: absolute;
+    top: -50px
+  }
+
+
   .bio-section {
     background: #ffc100;
     width: 100%;
     padding: 20px 0;
+    position: relative;
+  }
+
+  .projects-section {
+    position: relative;
+
   }
 
   .all-projects-header {
@@ -118,72 +130,78 @@
     height: 70px;
   }
 
-  a {
+  .ext-link {
     color: black;
   }
 
-  a:hover {
-    color: #ff6700;
+  .ext-link:hover {
+    color: #cc5200;
+    background: #ffe700;
   }
 
-  a:visited {
+  .ext-link:visited {
+    color: black;
+  }
+
+  .ext-link:visited:hover {
     color: #cc5200;
   }
-}
 
-.screenshot {
-  margin: 15px;
-  border: 10px solid rgba(255,255,255, 0.3);
-}
+  .screenshot {
+    margin: 15px;
+    border: 10px solid rgba(255,255,255, 0.3);
+  }
 
-.screenshot:hover {
-  border: 10px solid #ffc100;
-}
+  .screenshot:hover {
+    border: 10px solid #ffe700;
+  }
 
-.project-header {
-  text-align: center;
-  padding: 15px 0 0 0;
-  font-size: 24px;
-}
+  .project-header {
+    text-align: center;
+    padding: 15px 0 0 0;
+    font-size: 24px;
+  }
 
-.project-description {
-  padding: 5px 25px;
-  text-align: center;
-  font-size: 18px;
-}
+  .project-description {
+    padding: 5px 25px;
+    text-align: center;
+    font-size: 18px;
+  }
 
-.image-contain {
-  display: flex;
-  justify-content: center;
-}
+  .image-contain {
+    display: flex;
+    justify-content: center;
+  }
 
-.tech-contain {
-  padding: 5px 0;
-}
+  .tech-contain {
+    padding: 5px 0;
+  }
 
-.tech-text, .explore-view {
-  margin: 0 auto;
-  padding: 10px;
-  width: 90%;
-  background: rgba(255,255,255, 0.3);
-}
+  .tech-text, .explore-view {
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+    background: rgba(255,255,255, 0.3);
+  }
 
-.tech-headline {
-  margin-bottom: 10px;
-  font-size: 21px;
-  text-align: center;
-}
+  .tech-headline {
+    margin-bottom: 10px;
+    font-size: 21px;
+    text-align: center;
+  }
 
-li {
-  font-size: 18px;
-  line-height: 24px;
-}
+  li {
+    font-size: 18px;
+    line-height: 24px;
+  }
 
-.explore-view {
-  font-size: 19px;
-  margin-top: 20px;
-  margin-bottom: 15px;
-  background: rgba(255,255,255, 0.5);
+  .explore-view {
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background: rgba(255,255,255, 0.5);
+  }
+
 }
 
 @media only screen and (min-width: 640px) {
