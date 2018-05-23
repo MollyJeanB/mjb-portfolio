@@ -252,8 +252,11 @@
     padding-top: 30px
   }
 
+}
+
+@media only screen and (min-width: 1400px) {
   .hero-section {
-    background-size: auto 135%;
+    background-size: auto 140%;
   }
 
 }
