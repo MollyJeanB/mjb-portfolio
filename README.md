@@ -1,4 +1,4 @@
-# Portfolio Site for Molly Jean Bennett
+# Portfolio Site
 
 ![Screenshot of webpage featuring woman doing a handstand against a wall](/images/fullsite.png)
 See it live: [mollyjeanbennett.com](https://www.mollyjeanbennett.com/)
