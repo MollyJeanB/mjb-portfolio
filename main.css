@@ -99,6 +99,10 @@
     outline: none;
   }
 
+  .nav-scroll:first-child {
+    padding-right: 20px;
+  }
+
   .nav-scroll:hover {
     cursor: pointer;
     color: #cc5200;
@@ -108,11 +112,13 @@
   .contact-line {
     padding: 5px;
     text-align: center;
+    font-size: 22px;
   }
 
   .icon {
     height: 60px;
     margin: 0 10px 10px 10px;
+    transition: transform 0.2s;
   }
 
   .icon:hover {
@@ -128,6 +134,8 @@
     display: flex;
     justify-content: center;
     height: 70px;
+    padding: 25px;
+    margin-bottom: 25px;
   }
 
   .ext-link {
